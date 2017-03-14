@@ -1,0 +1,37 @@
+body{
+    margin:0;
+}
+.content{
+    background-color: gray;
+    width: 950px;
+    height: 600px;
+}
+.content header{
+    width: inherit;
+    height: 15%;
+}
+.content header nav{
+    display: flex;
+}
+.content header nav li{
+    flex:1;
+    text-align: center;
+    list-style: none;
+}
+
+.content > div{
+    width: inherit;
+    height: 85%;
+    padding: 0% 4%;
+}
+.content > div > article{
+    width: 23%;
+    height: inherit;
+    background-color: white;
+    float: left;
+}
+
+.content > div > article > h3,
+.content > div > article >p{
+    margin: 0;
+}
